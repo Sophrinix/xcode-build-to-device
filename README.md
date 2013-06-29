@@ -7,3 +7,6 @@ In other words, if this is a titanium project called mycoolapp then
 when you do pwd...
 You should see this:
 mycoolapp/build/iphone
+
+
+also you might need to chmod +x build2phone.sh
