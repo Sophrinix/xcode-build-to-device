@@ -3,7 +3,7 @@
 echo '
  If you do not have mobiledevice installed, please run this set of commands: 
                                                                              
-`curl -LOk https://github.com/CodexLabs/mobiledevice/archive/master.zip &&  unzip master.zip && cd mobiledevice-master && rake install`                
+curl -LOk https://github.com/CodexLabs/mobiledevice/archive/master.zip &&  unzip master.zip && cd mobiledevice-master && rake install                
                                                    
 Then close this shell session and open a new one.  
 I am assuming you have ruby.                       
