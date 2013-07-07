@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="b2i : this humble script will build your titanium project to your iphone if you are in the root directory of your project. AKA where tiapp.xml is" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>b2i</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Sophrinix/xcode-build-to-device">View on GitHub</a>
+
+          <h1 id="project_title">b2i</h1>
+          <h2 id="project_tagline">this humble script will build your titanium project to your iphone if you are in the root directory of your project. AKA where tiapp.xml is</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Sophrinix/xcode-build-to-device/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Sophrinix/xcode-build-to-device/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="b2i-previously--xcode-build-to-device-" class="anchor" href="#b2i-previously--xcode-build-to-device-"><span class="octicon octicon-link"></span></a>b2i (previously  xcode-build-to-device )</h1>
+
+<p>This humble script will build your Titanium app directly to an iPhone or iPad.</p>
+
+<p>I really would like to see this merged into Titanium CLI so for now I am holding off on making this a fancy npm package or ruby gem.</p>
+
+<p>That said, it is immediately usable (and for OSX only)</p>
+
+<h1>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h1>
+
+<p>Clone the repo, call it .b2i and place it in your home directory</p>
+
+<pre><code>git clone git@github.com:Sophrinix/xcode-build-to-device.git ~/.b2i
+</code></pre>
+
+<p>Add this to your bash_profile or .zshrc</p>
+
+<pre><code>alias b2i="~/.b2i/build2phone.sh"
+</code></pre>
+
+<p>Now anytime you are in the root directory (aka same level as where the tiapp.xml file is)
+you can type:</p>
+
+<pre><code> b2i
+</code></pre>
+
+<p>Provided that your certificates are correct, it will build your titanium app to the device directly. 
+No iTunes, no GUIs to mess with. :-)</p>
+
+<p>You will have to make sure that your project has been build as an iPhone target... aka yourproject/build/iphone/files_here_must_exist</p>
+
+<p>If there is nothing in that directory then consider using the titanium CLI and run</p>
+
+<pre><code>titanium build
+</code></pre>
+
+<p>This b2i program will work on alloy and traditional appcelerator apps.</p>
+
+<p>One final note: I will be leaving the name of this repo alone. 
+Even though the name of the command is now b2i.</p>
+
+<p>Also, if this project doesn't work, please file an issue. 
+Also, pull requests are welcome.</p>
+
+<p>Enjoy.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">b2i maintained by <a href="https://github.com/Sophrinix">Sophrinix</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
