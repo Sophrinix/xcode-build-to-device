@@ -1,4 +1,4 @@
-xcode-build-to-device
+b2i (previously called xcode-build-to-device )
 =====================
 
 this humble script will build your xcode project to your iphone if you are in the root directory of your project.
@@ -31,5 +31,8 @@ If there is nothing in that directory then consider using the titanium CLI and r
  		titanium build
 
 This b2i program will work on alloy and traditional appcelerator apps.
+
+
+One final note: I will be leaving the name of this repo alone. Even though the name of the command is now b2i.
 
 enjoy
