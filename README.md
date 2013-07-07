@@ -35,11 +35,20 @@ If there is nothing in that directory then consider using the titanium CLI and r
 
 This b2i program will work on alloy and traditional appcelerator apps.
 
+# License
 
-One final note: I will be leaving the name of this repo alone. 
+b2i and mobiledevice are licensed under the MIT license:
+www.opensource.org/licenses/MIT
+
+# Final house keeping notes:
+
+I will be leaving the name of this repo alone. 
 Even though the name of the command is now b2i.
+
+If you want the code to the mobiledevice program: https://github.com/CodexLabs/mobiledevice
+I am referencing my fork of it because I do intend to add functionality to that program.
 
 Also, if this project doesn't work, please file an issue. 
 Also, pull requests are welcome.
 
-Enjoy.
+Enjoy. :-)
