@@ -1,7 +1,7 @@
 b2i (previously  xcode-build-to-device )
 =====================
 
-this humble script will build your Titanium app directly to an iPhone or iPad.
+This humble script will build your Titanium app directly to an iPhone or iPad.
 
 I really would like to see this merged into Titanium CLI so for now I am holding off on making this a fancy npm package or ruby gem.
 
