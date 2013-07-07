@@ -45,7 +45,10 @@ www.opensource.org/licenses/MIT
 I will be leaving the name of this repo alone. 
 Even though the name of the command is now b2i.
 
-If you want the code to the mobiledevice program: https://github.com/CodexLabs/mobiledevice
+If you want the code to the mobiledevice program: 
+https://github.com/CodexLabs/mobiledevice
+
+
 I am referencing my fork of it because I do intend to add functionality to that program.
 
 Also, if this project doesn't work, please file an issue. 
