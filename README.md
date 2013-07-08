@@ -14,10 +14,11 @@ Clone the repo, call it .b2i and place it in your home directory
 
 	git clone git@github.com:Sophrinix/xcode-build-to-device.git ~/.b2i
 
-Add this to your bash_profile or .zshrc
+Add this to your ~/.bash_profile and/or  ~/.zshrc (if you use zsh)
 
 	alias b2i="~/.b2i/build2phone.sh"
 
+If you plan on using terminal from Titanium Studio, you'll want to add that line to the bash_profile
 
 Now anytime you are in the root directory (aka same level as where the tiapp.xml file is)
 you can type:
