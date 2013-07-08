@@ -35,6 +35,14 @@ If there is nothing in that directory then consider using the titanium CLI and r
 
 This b2i program will work on alloy and traditional appcelerator apps.
 
+# Upgrading
+
+Since this program is in a git repo, you can upgrade it any time via
+		
+		cd ~/.b2i && git pull
+		
+Why mention something so trivial? Documentation :-)
+
 # License
 
 b2i and mobiledevice are licensed under the MIT license:
