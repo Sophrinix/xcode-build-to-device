@@ -1,0 +1,12 @@
+
+{"VERSIONS:[
+	{0.2": [{"changelog and versions file added as JSON object"},
+		{"automatically clean and rebuild titanium project each time b2i is ran"}
+		]},
+	{"0.1":[{"iPhone builds fine."},
+		{"mobiledevices binary added so that ruby is not a dependency"}
+		]},
+	{"0.0":"proof of concept"}
+	  ]
+}
+
