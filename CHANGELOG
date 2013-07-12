@@ -1,6 +1,5 @@
-
 {"VERSIONS":[
-	{0.2": [{"changelog and versions file added as JSON object"},
+	{"0.2": [{"changelog and versions file added as JSON object"},
 		{"automatically clean and rebuild titanium project each time b2i is ran"}
 		]},
 	{"0.1":[{"iPhone builds fine."},
