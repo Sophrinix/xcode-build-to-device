@@ -12,7 +12,7 @@ That said, it is immediately usable (and for OSX only)
 
 Clone the repo, call it .b2i and place it in your home directory
 
-	git clone git@github.com:Sophrinix/xcode-build-to-device.git ~/.b2i
+	git clone http://github.com/Sophrinix/xcode-build-to-device.git ~/.b2i
 
 Add this to your ~/.bash_profile and/or  ~/.zshrc (if you use zsh)
 
