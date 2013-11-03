@@ -1,6 +1,9 @@
 b2i (previously  xcode-build-to-device )
 =====================
 
+Please note: Titanium 3.2 will allow you to build to an iPhone or iPad device directly.
+This project will continue to work, but will become some what pointless in the long run.
+=====
 This humble script will build your Titanium app directly to an iPhone or iPad.
 
 I really would like to see this merged into Titanium CLI so for now I am holding off on making this a fancy npm package or ruby gem.
@@ -12,7 +15,7 @@ That said, it is immediately usable (and for OSX only)
 
 Clone the repo, call it .b2i and place it in your home directory
 
-	git clone git@github.com:Sophrinix/xcode-build-to-device.git ~/.b2i
+	git clone https://github.com/Sophrinix/xcode-build-to-device.git ~/.b2i
 
 Add this to your ~/.bash_profile and/or  ~/.zshrc (if you use zsh)
 
